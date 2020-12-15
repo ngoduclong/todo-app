@@ -1,0 +1,75 @@
+
+  *{
+    transition: 0.2s all ease-in;
+  }
+  .todo-container{
+  width: 40vw;
+  border-radius: 15px;
+  padding: 20px 10px;
+  }
+  .Tasks{
+    border: 1px solid #ced4da;
+    border-bottom: 0;
+    border-radius: 0.25rem;    
+  }
+  .Task{
+    display: flex;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .title{
+    flex: 8;
+    height: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+
+  }
+  .btn{
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+  }
+  .task button{
+    cursor: pointer;
+    }
+  
+  .header{
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+  }
+  
+  .create-task input[type=text]{
+  margin: 2.5em 0;
+  width: 100%;
+  border: 1px solid #ced4da;
+  outline: none;
+  padding: 0.7em;
+  }
+  input:focus[type=input]{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
